@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --fs-small: 14px;
+  --fs-medium: 18px;
+  --fs-header: 24px;
+  --fs-big: 32px;
+}
+
+body {
+  background-color: #E7ECEF;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mainHeader {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.mainHeader-h1 {
+  font-size: var(--fs-big);
+  margin: 0;
+}
+
+.mainHeader-p {
+  width: 70%;
+  margin:  0 auto;
+  padding-top: 10px;
+  font-size: var(--fs-medium);
+}
+
+img {
+  margin-top: 30px;
+  width: 64px;
+  height: 64px;
+}
+
+.gsSection {
+  margin-top: 30px;
+  padding: 10px 0 10px 0;
+  background-color: #736CED;
+  color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-h2 {
+  font-size: var(--fs-header);
+  padding: 10px 0;
+}
+
+.item {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.p-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #918BFE;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.p {
+  font-size: var(--fs-small);
+}
+
+.squares-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 5%; */
+}
+
+.square {
+  width: 40%;
+  min-height: 100px;
+  margin: 5%;
+  display: flex;
+  background-color: #736CED;
+  color: white;
+}
+
+.squere-p {
+  align-self: center;
+  text-align: center;
+  font-size: var(--fs-small);
+  margin: 0 auto;
+  width: 80%;
+  font-weight: 500;
+}

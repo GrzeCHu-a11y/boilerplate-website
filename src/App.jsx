@@ -1,5 +1,6 @@
 import "./App.css";
 import img from "./assets/science.png";
+import img2 from "./assets/icons8-github-64.png";
 
 function App() {
   function SectionH2({ text }) {
@@ -15,7 +16,7 @@ function App() {
       <div className="item">
         <h3 className="h3">{h3Text}</h3>
         <div className="p-container">
-          <p className="p">{pText}</p>
+          <p className="p">$ &nbsp; {pText}</p>
         </div>
       </div>
     );
@@ -33,7 +34,7 @@ function App() {
     <>
       <header className="mainHeader">
         <h1 className="mainHeader-h1">React Boilerplate</h1>
-        <p className="mainHeader-p">Fast and ready to use react boilerplate</p>
+        <p className="mainHeader-p">Fast and ready to use react boilerplate made by G.G</p>
         <img src={img} alt="" />
       </header>
       <section className="gsSection">
@@ -53,6 +54,12 @@ function App() {
           <Square text="Css modules ready to use" />
         </div>
       </section>
+      <footer>
+        <h2>Source code</h2>
+        <a href="https://github.com/GrzeCHu-a11y/react-boilerplate" target="blank">
+          <img src={img2} alt="source" className="githubImg" />
+        </a>
+      </footer>
     </>
   );
 }
